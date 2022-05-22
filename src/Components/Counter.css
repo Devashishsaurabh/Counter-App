@@ -1,0 +1,12 @@
+.decrese,.double{
+    margin-left: 30px;
+  }
+  .increase,.decrese,.double{
+    background-color: rgb(96, 153, 245);
+    height:50px;
+    width:120px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
