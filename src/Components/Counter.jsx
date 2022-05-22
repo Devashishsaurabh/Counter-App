@@ -12,7 +12,7 @@ const Counter = () => {
     <div>
     <h1 style={count%2===0? {color:'green'}:{color:'red'}}>Counter App:{count}</h1>
     <button className='increase' onClick={() =>counters(1)}>Increment</button>
-    <button className="decrese"onClick={() =>counters(-1)}>Decrement</button>
+    <button className="decrese"onClick={() =>{if(count > 0){counters(-1)}}}>Decrement</button>
     <button className="double"onClick={() =>double()}>Double</button>
     </div>
   )
